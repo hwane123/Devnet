@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device-Configuration xmlns="urn:cisco:xml-pi">
+	<interface>
+		<Param>GigabitEthernet1</Param>
+		<ConfigIf-Configuration>
+			<description>
+				<UpTo200CharactersInterface>to CSR1</UpTo200CharactersInterface>
+			</description>
+			<ip>
+				<address>
+					<IPAddress>10.64.224.25</IPAddress>
+					<IPSubnetMask>255.240.0.0</IPSubnetMask>
+				</address>
+			</ip>
+			<negotiation>
+				<auto></auto>
+			</negotiation>
+			<mop operation="delete">
+				<enabled></enabled>
+			</mop>
+			<mop operation="delete">
+				<sysid></sysid>
+			</mop>
+		</ConfigIf-Configuration>
+	</interface>
+	<end></end>
+</Device-Configuration>
