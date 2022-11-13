@@ -1,0 +1,28 @@
+{
+    "interface": {
+      "Param": "GigabitEthernet1",
+      "ConfigIf-Configuration": {
+        "description": {
+          "UpTo200CharactersInterface": "to CSR1"
+        },
+        "ip": {
+          "address": {
+            "IPAddress": "10.64.224.25",
+            "IPSubnetMask": "255.240.0.0"
+          }
+        },
+        "negotiation": {
+          "auto": ""
+        },
+        "mop": [
+          {
+            "enabled": ""
+          },
+          {
+            "sysid": ""
+          }
+        ]
+      }
+    },
+    "end": ""
+  }

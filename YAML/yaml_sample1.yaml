@@ -1,0 +1,15 @@
+end: ''
+interface:
+  ConfigIf-Configuration:
+    description:
+      UpTo200CharactersInterface: Successfully Changed by python_admin
+    ip:
+      address:
+        IPAddress: 10.64.224.25
+        IPSubnetMask: 255.240.0.0
+    mop:
+    - enabled: ''
+    - sysid: ''
+    negotiation:
+      auto: ''
+  Param: GigabitEthernet1
